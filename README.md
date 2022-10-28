@@ -23,9 +23,13 @@
 7- Use os seguintes comandos para enviar a pasta atualizada para o GitHub:
 
 > git init
+>
 > git add .
+>
 > git commit -m 'a mensagem que você quiser aqui'
+>
 > git remote add origin https://github.com/JuliNunes/DH-Exercicios
+>
 > git push -u origin master
 
 ![Usando Git Bash](./images/using-gitbash.png 'Usando o Git Bash')
@@ -43,3 +47,7 @@ O comando **git commit -m ''** serve para capturar o projeto no estado atual e s
 O comando **git remote add origin** serve para centralizar o local remoto do codigo (no caso a página do repositório a ser utlizado do GitHub)
 
 O comando **git push -u origin** serve para enviar a ultima captura (o commit) para o local remoto (remote origin) do repositório
+
+Na segunda vez que usar o Git na mesma pasta não é necessário o **git init** e o **git remote add origin** como mostrado abaixo:
+
+![Segundo commit](./images/using-gitbash2.png 'Segundo commit')
