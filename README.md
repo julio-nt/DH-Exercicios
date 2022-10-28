@@ -14,7 +14,7 @@
 
 4- Extraia o repositório do ZIP
 
-5- Faça as modificações que desejar (adicionar, modificar ou alterar exercício)
+5- Faça as modificações que desejar (adicionar, modificar ou excluir exercícios)
 
 6- Quando quiser postar o repositório com suas modificações clique com o botão direito na pasta e clique em 'Git Bash'
 
@@ -27,6 +27,8 @@
 > git commit -m 'a mensagem que você quiser aqui'
 > git remote add origin https://github.com/JuliNunes/DH-Exercicios
 > git push -u origin master
+
+![Usando Git Bash](./images/using-gitbash.png 'Usando o Git Bash')
 
 Com isso o repositório estara atualizado na pagina do GitHub
 
