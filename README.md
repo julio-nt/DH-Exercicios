@@ -36,13 +36,13 @@
 
 Com isso o repositório estara atualizado na pagina do GitHub
 
-### Explicando os comandos e mais alguns detalhes
+## Explicando os comandos e mais alguns detalhes
 
 O comando **git init** serve para inicializar o git naquela pasta
 
 O comando **git add .** serve para adicionar todos os arquivos dentro da pasta, você pode adicionar apenas um arquivo se quiser, por exemplo **git add README.md**
 
-O comando **git commit -m ''** serve para capturar o projeto no estado atual e salvar uma mensagem a essa captura
+O comando **git commit -m ''** serve para capturar o projeto no estado atual e salvar uma mensagem a essa captura (o ideal é salvar na mensagem o que foi alterado, por exemplo 'exercicio 4 de funcoes feito')
 
 O comando **git remote add origin** serve para centralizar o local remoto do codigo (no caso a página do repositório a ser utlizado do GitHub)
 
