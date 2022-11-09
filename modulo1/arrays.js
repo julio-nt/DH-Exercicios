@@ -52,3 +52,47 @@ for (let i=0; i<listaDeGanhos.length; i++) {
         totalNegativos++
     }
 }
+
+//Exercicio 8
+var listaDeFrutas = ["Uva", "Banana", "Manga", "Cajá", "Pinha"];
+var busca = "Cajá";
+
+//seu loop aqui
+for (let i=0; i<listaDeFrutas.length; i++) {
+    if (listaDeFrutas[i] == busca) {
+        console.log('Sim, temos a fruta ' + busca + ' disponível')
+    }
+}
+
+//Exercicio 9
+let array1 = [ 1, 2, 3 ]
+let array2 = [ 4, 5 ]
+
+function moverItem(arrayA, arrayB){
+  let ultimo = arrayA.pop()
+ arrayB.push(ultimo) 
+}
+
+moverItem(array1, array2 )
+// O arrayA terá os seguintes valores = [ 1 , 2 ]
+// O arrayB terá os seguintes valores = [ 4, 5, 3 ]
+
+//Exercicio 10
+// Seu código vem aqui
+function estavaPresenteNaAula(nomeDoAluno, nomesDosPresentes) {
+        if (nomesDosPresentes.indexOf(nomeDoAluno) != -1) {
+            return true
+        } else {
+            return false
+    }
+}
+
+//Exercicio 11
+// Seu código vem aqui
+function transformaParaMaiusculo(palavras) {
+    let versaoMaiuscula = []
+    for (let i=0; i<palavras.length; i++) {
+        versaoMaiuscula.push(palavras[i].toUpperCase())
+    }
+  return versaoMaiuscula
+}
