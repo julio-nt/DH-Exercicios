@@ -36,6 +36,5 @@ if (dado) {
 }
 
 //Exercicio 2
-console.log('hello world');
 
 //Exercicio 3
