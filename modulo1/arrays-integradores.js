@@ -191,12 +191,12 @@ function lugaresDisponiveis(lugarVago, lugarUser) {
 
 //A chave secreta
 function aChaveSecreta(arr) {
-  let mensagem = []
+  let mensagem = ''
    for (let i=arr.length-1; i<arr.length && i>=0; i--) {
        if (arr[i] == '*') {
        } else {
-         mensagem.push(arr[i])
+         mensagem += arr[i]
        }
    }
-  return mensagem.join('')
+  return mensagem
 }
